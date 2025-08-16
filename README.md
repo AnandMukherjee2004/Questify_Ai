@@ -299,7 +299,7 @@ questify-ai/
 - Built with [Next.js](https://nextjs.org/)
 - Powered by [Convex](https://convex.dev/)
 - Authentication by [Clerk](https://clerk.com/)
-- Icons by [React Icons]([https://tabler-icons.io/](https://react-icons.github.io/react-icons/))
+- Icons by [React Icons](https://react-icons.github.io/react-icons/)
 - Animations by [Framer Motion](https://framer.com/motion/)
 
 ---
