@@ -3,8 +3,8 @@ import { FileUpload } from "@/components/ui/file-upload";
 import React, { useState } from "react";
 
 
-export default function ResumeUpload() {
-  const [files, setFiles] = useState<File[]>([]);
+export default function ResumeUpload({ setFiles }: { setFiles: (files: File[]) => void }) {
+
   const handleFileUpload = (files: File[]) => {
     setFiles(files);
     console.log(files);
