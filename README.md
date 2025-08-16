@@ -4,9 +4,6 @@ An intelligent AI-powered interview preparation platform that helps job seekers 
 
 ![Questify AI Banner](./public/banner.png)
 
-## 🚀 Live Demo
-
-[Live Demo](https://questify-ai.vercel.app) - Experience the full platform
 
 ## 📋 Table of Contents
 
