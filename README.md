@@ -42,7 +42,7 @@ An intelligent AI-powered interview preparation platform that helps job seekers 
 - **TypeScript** - Type-safe JavaScript
 - **Tailwind CSS** - Utility-first CSS framework
 - **Framer Motion** - Animation library
-- **Radix UI** - Accessible UI components
+- **Shadcn UI** - Accessible UI components
 
 ### Backend
 - **Convex** - Full-stack TypeScript backend platform
@@ -52,7 +52,6 @@ An intelligent AI-powered interview preparation platform that helps job seekers 
 ### External Services
 - **Clerk** - Authentication & user management
 - **ImageKit** - Image and file storage CDN
-- **Vercel** - Deployment platform
 
 ### Development Tools
 - **ESLint** - Code linting
@@ -260,10 +259,6 @@ questify-ai/
    npm start
    ```
 
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guide](./CONTRIBUTING.md) for details.
-
 ### Development Workflow
 
 1. Fork the repository
@@ -273,6 +268,9 @@ We welcome contributions! Please see our [Contributing Guide](./CONTRIBUTING.md)
 5. Open a Pull Request
 
 ## 📸 Screenshots
+
+### n8n Workflow
+![Workflow Automation](link)
 
 ### Landing Page
 ![Landing Page](./public/screenshots/landing.png)
@@ -297,23 +295,12 @@ We welcome contributions! Please see our [Contributing Guide](./CONTRIBUTING.md)
 - [ ] **Interview Templates** - Pre-built interview templates
 - [ ] **Integration** - LinkedIn and job board integrations
 
-## 📞 Support
-
-- **Documentation**: [docs.questify-ai.com](https://docs.questify-ai.com)
-- **Discord**: [Join our community](https://discord.gg/questify-ai)
-- **Email**: support@questify-ai.com
-- **Twitter**: [@questify_ai](https://twitter.com/questify_ai)
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - Built with [Next.js](https://nextjs.org/)
 - Powered by [Convex](https://convex.dev/)
 - Authentication by [Clerk](https://clerk.com/)
-- Icons by [Tabler Icons](https://tabler-icons.io/)
+- Icons by [React Icons]([https://tabler-icons.io/](https://react-icons.github.io/react-icons/))
 - Animations by [Framer Motion](https://framer.com/motion/)
 
 ---
@@ -321,8 +308,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center">
   <p>Built with ❤️ by the Questify AI Team</p>
   <p>
-    <a href="https://questify-ai.vercel.app">Website</a> •
-    <a href="https://github.com/yourusername/questify-ai">GitHub</a> •
-    <a href="https://twitter.com/questify_ai">Twitter</a>
+    <a href="https://github.com/AnandMukherjee2004/questify-ai">GitHub</a> •
   </p>
 </div>
