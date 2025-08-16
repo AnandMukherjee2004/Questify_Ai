@@ -16,8 +16,7 @@ An intelligent AI-powered interview preparation platform that helps job seekers 
 - [Database Schema](#-database-schema)
 - [Environment Variables](#-environment-variables)
 - [Deployment](#-deployment)
-- [Contributing](#-contributing)
-- [License](#-license)
+
 
 ## ✨ Features
 
