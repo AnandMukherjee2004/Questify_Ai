@@ -1,7 +1,8 @@
 import { createContext, Dispatch, SetStateAction } from "react";
+import { Id } from "@/convex/_generated/dataModel";
 
 interface UserDetails {
-    id?: string;
+    id?: Id<"users">;
     name: string;
     imageUrl: string;
     email: string;
@@ -12,4 +13,6 @@ interface UserDetailContextType {
     setUserDetail: Dispatch<SetStateAction<UserDetails | null>>;
 }
 
-export const UserDetailContext = createContext<any | null>(null)
+export const UserDetailContext = createContext<UserDetailContextType | null>(null)
+
+export type { UserDetails, UserDetailContextType };

@@ -20,7 +20,7 @@ import { SaveInterviewQuestions } from '@/convex/interviews'
 import { useMutation } from 'convex/react'
 import { api } from '@/convex/_generated/api'
 import { UserDetailContext } from '@/context/UserDetailContext'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 
 function CreateDialog() {
 
@@ -70,7 +70,7 @@ function CreateDialog() {
 
 
         try {
-            const res = await axios.post("/api/generate-interview-questions", formData, {
+            const res = await axios.post("/api/generate-interview-questions", _formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },
@@ -82,9 +82,9 @@ function CreateDialog() {
                 questions: res?.data?.questions,
                 resumeUrl: res?.data?.resumeUrl,
                 status: "draft",
-                uid: userDetail,
-                jobTitle: formData.jobTitle,
-                jobDesc: formData.jobDesc
+                uid: userDetail.id!,
+                jobTitle: formData.jobTitle || null,
+                jobDesc: formData.jobDesc || null
             });
 
             //route to the interview page
@@ -101,10 +101,10 @@ function CreateDialog() {
 
     return (
         <Dialog>
-            <DialogTrigger>
-                <Button className="inline-flex items-center px-6 py-3 text-white font-medium rounded-lg transition-colors duration-200 shadow-sm hover:shadow-md cursor-pointer">
+            <DialogTrigger asChild>
+                <button className="inline-flex items-center px-6 py-3 text-white font-medium rounded-lg transition-colors duration-200 shadow-sm hover:shadow-md cursor-pointer bg-primary hover:bg-primary/90">
                     <svg
-                        className="w-5 h-5 mr-2"
+                        className="w-5 h-5"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -116,8 +116,8 @@ function CreateDialog() {
                             d="M12 6v6m0 0v6m0-6h6m-6 0H6"
                         />
                     </svg>
-                    Create Your First Interview
-                </Button>
+                    Create Interview
+                </button>
             </DialogTrigger>
             <DialogContent>
                 <DialogHeader>

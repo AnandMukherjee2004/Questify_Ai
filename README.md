@@ -322,7 +322,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
-  <p>Built with ❤️ by the Questify AI Team</p>
+  <p>Built with ❤️ by Anand</p>
   <p>
     <a href="https://questify-ai.vercel.app">Website</a> •
     <a href="https://github.com/yourusername/questify-ai">GitHub</a> •
