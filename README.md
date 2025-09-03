@@ -268,23 +268,23 @@ questify-ai/
 
 ## 📸 Screenshots
 
-### n8n Workflow
+### n8n Workflow - Generating Interview Question
 ![Workflow Automation - Generating Interview Question](./public/Generate-Questions-workflow.jpg)
 
-### n8n Workflow
+### n8n Workflow - Generating Interview Feedback
 ![Workflow Automation - Generating Interview Feedback](./public/Interview-Feedback.jpg)
 
 ### Landing Page
-![Landing Page](./public/screenshots/landing.png)
+![Landing Page](./public/Landing-page.jpeg)
 
 ### Interview Creation
-![Create Interview](./public/screenshots/create-interview.png)
+![Create Interview](./public/interview-creation.png)
 
 ### Interview Session
-![Interview Session](./public/screenshots/interview-session.png)
+![Interview Session](./public/Interview-Session.png)
 
 ### Results Dashboard
-![Results](./public/screenshots/results.png)
+![Results](./public/Dashboard.jpg)
 
 ## 🛣 Roadmap
 

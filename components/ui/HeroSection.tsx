@@ -86,11 +86,11 @@ function HeroSection() {
                 >
                     <div className="w-full overflow-hidden rounded-xl border border-gray-300 dark:border-gray-700">
                         <img
-                            src="/hero-image.png"
+                            src="/Dashboard.jpg"
                             alt="Landing page preview"
-                            className="aspect-[16/9] h-auto w-full object-cover"
-                            height={1000}
-                            width={1000}
+                            className="aspect-[16/9] h-auto w-full"
+                            height={100}
+                            width={100}
                         />
                     </div>
                 </motion.div>
