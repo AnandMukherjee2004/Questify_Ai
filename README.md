@@ -269,7 +269,10 @@ questify-ai/
 ## 📸 Screenshots
 
 ### n8n Workflow
-![Workflow Automation](link)
+![Workflow Automation - Generating Interview Question](./public/Generate-Questions-workflow.jpg)
+
+### n8n Workflow
+![Workflow Automation - Generating Interview Feedback](./public/Interview-Feedback.jpg)
 
 ### Landing Page
 ![Landing Page](./public/screenshots/landing.png)
